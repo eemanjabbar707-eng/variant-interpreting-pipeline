@@ -1,0 +1,16 @@
+##fileformat=VCFv4.2
+##fileDate=20260720
+##source=ClinVar_20240917_local_extraction
+##reference=GRCh38
+##contig=<ID=chr7,length=159345973>
+##contig=<ID=chr11,length=135086622>
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=CLNSIG,Number=1,Type=String,Description="ClinVar clinical significance">
+##INFO=<ID=CLNDN,Number=1,Type=String,Description="ClinVar disease name">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+chr7	150945490	.	C	A	.	PASS	GENE=KCNH2;CLNSIG=Pathogenic;CLNDN=Long_QT_syndrome_2	GT:DP:AD:GQ	0/1:50:25,25:99
+chr11	2445149	.	G	A	.	PASS	GENE=KCNQ1;CLNSIG=Pathogenic;CLNDN=Long_QT_syndrome	GT:DP:AD:GQ	0/1:50:25,25:99

@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##fileDate=20260720
+##source=ClinVar_20240917_local_extraction
+##reference=GRCh38
+##contig=<ID=chr6,length=170805979>
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=CLNSIG,Number=1,Type=String,Description="ClinVar clinical significance">
+##INFO=<ID=CLNDN,Number=1,Type=String,Description="ClinVar disease name">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+chr6	156779240	.	C	G	.	PASS	GENE=ARID1B;CLNSIG=Pathogenic;CLNDN=Coffin-Siris_syndrome_1	GT:DP:AD:GQ	0/1:50:25,25:99
