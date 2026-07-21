@@ -1,0 +1,7 @@
+intervardb/
+reference/
+software/
+input/
+*.log
+snpEff_summary.html
+intervardb
